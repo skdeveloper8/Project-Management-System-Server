@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",                        /* Modern JS features */
+    "module": "CommonJS",                      /* Node.js runtime uses CJS */
+    "rootDir": "./src",                        /* All TS source lives here */
+    "outDir": "./build",                       /* Compiled JS goes here */
+    "moduleResolution": "Node",                /* Standard Node resolution */
+    "baseUrl": "./src",                        /* Allow absolute imports from src */
+    "strict": true,                            /* Enable strict type-checking */
+    "esModuleInterop": true,                   /* Support default imports from CJS */
+    "forceConsistentCasingInFileNames": true,  /* Avoid case mismatch issues */
+    "skipLibCheck": true,                       /* Speed up type checking */
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts"]
+}
